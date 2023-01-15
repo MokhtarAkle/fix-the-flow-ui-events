@@ -55,12 +55,72 @@ a:nth-of-type(12) {
 }
 
 .spin{
-  animation: spin infinite ease  0s forwards;
+  animation-name: spin;
+  animation-timing-function: ease-in-out;
+  animation-duration: .6s;
+  animation-iteration-count: infinite; 
 }
 
-@keyframes spim{
+section > a:nth-of-type(2):hover{
+  animation-name: expand;
+  animation-timing-function: ease-in;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.hop{
+  animation-name: hop;
+  animation-timing-function: ease-in-out;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+}
+
+
+@keyframes hop {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-1.5em);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+@keyframes expand {
+  0%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(20);
+  }
+}
+
+@keyframes spin{
   0%{
     transform: rotate(0deg);
+  }
+  12.5%{
+    transform: rotate(45deg);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  37.5%{
+    transform: rotate(135deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  62.5%{
+    transform: rotate(225deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  87.5%{
+    transform: rotate(315deg);
   }
   100%{
     transform: rotate(360deg);
