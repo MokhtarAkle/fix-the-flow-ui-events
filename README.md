@@ -1,15 +1,12 @@
 > _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# UI-events experimentatie
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Door gebruik te maken van verschillende UI events heb ik elementen interactie gegeven.
 
 ## Experimenten
-<!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
-<!-- Voeg een mooie poster visual toe 📸 per experiment -->
+![image](https://user-images.githubusercontent.com/45001009/214006233-d4f35bfb-fc5f-41c2-b3f5-691809babdaa.png)
 
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
